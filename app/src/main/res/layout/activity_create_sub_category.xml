@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateSubCategory">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.078">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="24dp"
+            app:helperTextEnabled="true"
+            app:helperText="Categoría o Subcategoría"
+            app:startIconDrawable="@drawable/ic_baseline_style_24"
+            app:startIconContentDescription="Info Icon"
+            app:errorEnabled="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="24dp"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/typeCategory"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:hint="Seleccione una opción"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <EditText
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="24dp"
+            android:background="@drawable/ic_field"
+            android:drawableStart="@drawable/ic_baseline_subtitles_24"
+            android:drawableLeft="@drawable/ic_baseline_subtitles_24"
+            android:drawablePadding="16dp"
+            android:ems="10"
+            android:hint="Titulo"
+            android:inputType="text"
+            android:padding="16dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ic_buttom"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:text="Registrar"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="24dp"
+            app:helperTextEnabled="true"
+            app:helperText="Categoría o Subcategoría"
+            app:startIconDrawable="@drawable/ic_baseline_style_24"
+            app:startIconContentDescription="Info Icon"
+            app:errorEnabled="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="24dp"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/typeDelete"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:hint="Seleccione una opción"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_buttom"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:text="Eliminar"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</LinearLayout>

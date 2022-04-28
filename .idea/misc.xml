@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable-v24/ic_field.xml" value="0.2890625" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_build_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_category_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_featured_video_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_fullscreen_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_fullscreen_exit_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_menu_24black.xml" value="0.3828125" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_baseline_smartphone_24.xml" value="0.2890625" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_buttom.xml" value="0.3828125" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/drawable/ic_email.xml" value="0.3828125" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_all_content.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_content.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_content_img.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_content_repro.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_create_category.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_create_sub_category.xml" value="0.22" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_edit_content.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_login.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_menu_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_search.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_send_email.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_sign_in.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/activity_subcategories.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/all_list.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/app_bar_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/card_categories.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/card_in.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/card_menu_list.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/card_top.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/content_main.xml" value="0.28386004514672686" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/exo_playback_control_view.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/fragment_slideshow.xml" value="0.17572463768115942" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/layout_progress_bar_with_crear.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/layout_progress_bar_with_register.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/layout_progress_bar_with_text.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/list_item.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/layout/nav_header_main.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/amaur/AndroidStudioProjects/Project/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.332" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/drawable/ic_email.xml" value="0.332" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_all_content.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_content.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_create_category.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_create_sub_category.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_login.xml" value="0.1762917933130699" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_send_email.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_sign_in.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/activity_subcategories.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/app_bar_main.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/list_item.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/Downloads/ProjectIS4-master/app/src/main/res/layout/nav_header_main.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/StudioProjects/ProjectIS4/app/src/main/res/layout/activity_create_sub_category.xml" value="0.3625" />
+        <entry key="..\:/Users/amaur/StudioProjects/ProjectIS4/app/src/main/res/layout/activity_send_email.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

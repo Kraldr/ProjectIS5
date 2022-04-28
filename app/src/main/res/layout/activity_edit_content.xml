@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editContent">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.078">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="-130dp"
+            android:layout_marginRight="24dp"
+            app:boxStrokeColor="#000"
+            app:errorEnabled="true"
+            app:helperTextEnabled="true"
+            app:hintTextColor="#000"
+            app:startIconDrawable="@drawable/ic_baseline_class_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Titulo"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            app:boxStrokeColor="#000"
+            app:errorEnabled="true"
+            app:helperTextEnabled="true"
+            app:hintTextColor="#000"
+            app:startIconDrawable="@drawable/ic_baseline_image_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtIMG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="URL"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            app:boxStrokeColor="#000"
+            app:errorEnabled="true"
+            app:helperTextEnabled="true"
+            app:hintTextColor="#000"
+            app:startIconDrawable="@drawable/ic_baseline_subtitles_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtDescrips"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Descripción"
+                android:inputType="textMultiLine" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="24dp"
+            app:helperTextEnabled="true"
+            app:helperText="New text"
+            app:startIconDrawable="@drawable/ic_baseline_menu_24"
+            app:startIconContentDescription="Info Icon"
+            app:errorEnabled="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_height="wrap_content">
+
+            <AutoCompleteTextView
+                android:id="@+id/typeArchive"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:hint="Seleccione una opción"
+                android:layout_height="wrap_content"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnActualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/ic_buttom"
+            android:paddingLeft="64dp"
+            android:paddingRight="64dp"
+            android:text="Actualizar archivo"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
